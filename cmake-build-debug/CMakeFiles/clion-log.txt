@@ -1,0 +1,5 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE
+-- Opencv include dir found at /usr/local/include;/usr/local/include/opencv
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug
