@@ -5,116 +5,181 @@
 		<Option title="CPPCU_TEST_ONE"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\realsense2\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\realsense2\;CMake Files\..\..\..\.virtualenvs\;CMake Files\..\..\..\.virtualenvs\Vyolo5\;CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\;CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\;CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\;CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\;CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\;CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\;CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Torch\;CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\;CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\public\;CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\;CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\;CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\;CMake Files\cmake-build-debug\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug"/>
+				<Option working_dir="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CPPCU_TEST_ONE">
-				<Option output="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/CPPCU_TEST_ONE" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug"/>
+				<Option output="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/CPPCU_TEST_ONE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
+					<Add directory="/home/hk005pyc/.virtualenvs/Vyolo5/lib/python3.6/dist-packages/torch/include"/>
 					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/hk005pyc/.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/include/torch/csrc/api/include"/>
+					<Add directory="/home/hk005pyc/.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/include"/>
+					<Add directory="/usr/local/cuda/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/aarch64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
 					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/aarch64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPPCU_TEST_ONE"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPPCU_TEST_ONE"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CPPCU_TEST_ONE/fast">
-				<Option output="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/CPPCU_TEST_ONE" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug"/>
+				<Option output="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/CPPCU_TEST_ONE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
+					<Add directory="/home/hk005pyc/.virtualenvs/Vyolo5/lib/python3.6/dist-packages/torch/include"/>
 					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/hk005pyc/.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/include/torch/csrc/api/include"/>
+					<Add directory="/home/hk005pyc/.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/include"/>
+					<Add directory="/usr/local/cuda/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/aarch64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
 					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/aarch64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPPCU_TEST_ONE/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPPCU_TEST_ONE/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug"/>
+				<Option working_dir="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/5_saveImg.cpp">
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/7_libtorchTest.cpp">
 			<Option target="CPPCU_TEST_ONE"/>
 		</Unit>
-		<Unit filename="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/CMakeLists.txt">
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/../../../../../usr/local/lib/cmake/realsense2/realsense2Config.cmake">
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../../../usr/local/lib/cmake/realsense2/realsense2Config.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\realsense2\"/>
 		</Unit>
-		<Unit filename="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/../../../../../usr/local/lib/cmake/realsense2/realsense2ConfigVersion.cmake">
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../../../usr/local/lib/cmake/realsense2/realsense2ConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\realsense2\"/>
 		</Unit>
-		<Unit filename="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/../../../../../usr/local/lib/cmake/realsense2/realsense2Targets-release.cmake">
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../../../usr/local/lib/cmake/realsense2/realsense2Targets-release.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\realsense2\"/>
 		</Unit>
-		<Unit filename="/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/../../../../../usr/local/lib/cmake/realsense2/realsense2Targets.cmake">
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../../../usr/local/lib/cmake/realsense2/realsense2Targets.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\realsense2\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Torch/TorchConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Torch/TorchConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Caffe2/Caffe2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Caffe2/Caffe2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Caffe2/Caffe2Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Caffe2/Caffe2Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Caffe2/public/cuda.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Caffe2/public/mkl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Caffe2/public/threads.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Caffe2/public/utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/FindCUDNN.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/CMakeInitializeConfigs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/../../../.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA/select_compute_arch.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.virtualenvs\Vyolo5\lib\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/detect_cuda_compute_capabilities.cpp">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/detect_cuda_version.cc">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

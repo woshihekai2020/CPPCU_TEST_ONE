@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CPPCU_TEST_ONE.dir/5_saveImg.cpp.o"
-  "CPPCU_TEST_ONE.pdb"
+  "CMakeFiles/CPPCU_TEST_ONE.dir/7_libtorchTest.cpp.o"
+  "CMakeFiles/CPPCU_TEST_ONE.dir/7_libtorchTest.cpp.o.d"
   "CPPCU_TEST_ONE"
+  "CPPCU_TEST_ONE.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
