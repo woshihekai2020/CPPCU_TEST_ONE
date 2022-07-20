@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CPPCU_TEST_ONE.dir/7_libtorchTest.cpp.o"
-  "CMakeFiles/CPPCU_TEST_ONE.dir/7_libtorchTest.cpp.o.d"
+  "CMakeFiles/CPPCU_TEST_ONE.dir/9_thread.cpp.o"
   "CPPCU_TEST_ONE"
   "CPPCU_TEST_ONE.pdb"
 )

@@ -1,34 +1,36 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug DCMAKE_CUDA_COMPILER:PATH=/usr/local/cuda/bin/nvcc -G "CodeBlocks - Unix Makefiles" /home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE
-CMake Warning:
-  Ignoring extra path from command line:
-
-   "/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/DCMAKE_CUDA_COMPILER:PATH=/usr/local/cuda/bin/nvcc"
-
-
--- Found PythonInterp: /usr/bin/python (found version "3.6.9") 
--- Opencv include dir found at /usr/local/include;/usr/local/include/opencv
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CUDA_COMPILER:PATH=/usr/local/cuda/bin/nvcc -G "CodeBlocks - Unix Makefiles" /home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE
+-- Found CUDA: /usr/local/cuda (found suitable exact version "10.2") 
+-- Opencv include dir found at /usr/local/include/opencv4
 -- Found CUDA: /usr/local/cuda (found version "10.2") 
 -- Caffe2: CUDA detected: 10.2
 -- Caffe2: CUDA nvcc is: /usr/local/cuda/bin/nvcc
 -- Caffe2: CUDA toolkit directory: /usr/local/cuda
 -- Caffe2: Header version is: 10.2
--- Found CUDNN: /usr/lib/aarch64-linux-gnu/libcudnn.so  
--- Found cuDNN: v8.0.0  (include: /usr/local/cuda/include, library: /usr/lib/aarch64-linux-gnu/libcudnn.so)
--- /usr/local/cuda/lib64/libnvrtc.so shorthash is 7d272a04
+-- Found cuDNN: v8.2.4  (include: /usr/local/cuda/include, library: /usr/lib/aarch64-linux-gnu/libcudnn.so)
+-- /usr/local/cuda/lib64/libnvrtc.so shorthash is c13e41e1
 -- Autodetected CUDA architecture(s):  7.2
 -- Added CUDA NVCC flags for: -gencode;arch=compute_72,code=sm_72
--- Found Torch: /home/hk005pyc/.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/lib/libtorch.so  
+-- Found AMD headers in: /usr/include/suitesparse
+-- Found AMD library: /usr/lib/aarch64-linux-gnu/libamd.so
+-- Found CAMD headers in: /usr/include/suitesparse
+-- Found CAMD library: /usr/lib/aarch64-linux-gnu/libcamd.so
+-- Found CCOLAMD headers in: /usr/include/suitesparse
+-- Found CCOLAMD library: /usr/lib/aarch64-linux-gnu/libccolamd.so
+-- Found CHOLMOD headers in: /usr/include/suitesparse
+-- Found CHOLMOD library: /usr/lib/aarch64-linux-gnu/libcholmod.so
+-- Found COLAMD headers in: /usr/include/suitesparse
+-- Found COLAMD library: /usr/lib/aarch64-linux-gnu/libcolamd.so
+-- Found SPQR headers in: /usr/include/suitesparse
+-- Found SPQR library: /usr/lib/aarch64-linux-gnu/libspqr.so
+-- Found Config headers in: /usr/include/suitesparse
+-- Found Config library: /usr/lib/aarch64-linux-gnu/libsuitesparseconfig.so
+-- Did not find Intel TBB library, assuming SuiteSparseQR was not compiled with TBB.
+-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found required Ceres dependency: Eigen version 3.3.4 in /usr/lib/cmake/eigen3
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.1.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
 -- Configuring done
-CMake Warning at CMakeLists.txt:61 (ADD_EXECUTABLE):
-  Cannot generate a safe runtime search path for target CPPCU_TEST_ONE
-  because files in some directories may conflict with libraries in implicit
-  directories:
-
-    runtime library [libcudnn.so.8] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
-      /usr/local/cuda/lib64
-
-  Some of these libraries may not be found correctly.
-
-
 -- Generating done
 -- Build files have been written to: /home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug

@@ -27,8 +27,8 @@ int main()
     pipe.start( cfg );
     rs2::frameset data;
 
-    std::string rgb_path   = "/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/1_data/color/";
-    std::string depth_path = "/home/hk003ros/CLionProjects/CPP/CPPCU_TEST_ONE/1_data/depth/";
+    std::string rgb_path   = "~/CLionProjects/CPP/CPPCU_TEST_ONE/1_data/color/";
+    std::string depth_path = "~/CLionProjects/CPP/CPPCU_TEST_ONE/1_data/depth/";
     int num = 0;
 
     while( 1 )

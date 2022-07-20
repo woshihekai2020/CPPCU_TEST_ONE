@@ -1,14 +1,26 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/9_thread.cpp" "/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cmake-build-debug/CMakeFiles/CPPCU_TEST_ONE.dir/9_thread.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "GFLAGS_IS_A_DLL=0"
   )
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/7_libtorchTest.cpp" "CMakeFiles/CPPCU_TEST_ONE.dir/7_libtorchTest.cpp.o" "gcc" "CMakeFiles/CPPCU_TEST_ONE.dir/7_libtorchTest.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/hk005pyc/.virtualenvs/Vyolo5/lib/python3.6/dist-packages/torch/include"
+  "/usr/local/include/opencv4"
+  "/home/hk005pyc/.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/include/torch/csrc/api/include"
+  "/home/hk005pyc/.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch/include"
+  "/usr/local/cuda/include"
+  "/usr/include/eigen3"
   )
 
 # Targets to which this target links.

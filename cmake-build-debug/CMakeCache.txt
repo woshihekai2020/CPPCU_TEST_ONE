@@ -15,9 +15,6 @@
 ########################
 
 //Path to a library.
-BLAS_flexiblas_LIBRARY:FILEPATH=BLAS_flexiblas_LIBRARY-NOTFOUND
-
-//Path to a library.
 BLAS_goto2_LIBRARY:FILEPATH=BLAS_goto2_LIBRARY-NOTFOUND
 
 //Path to a library.
@@ -67,6 +64,9 @@ CMAKE_CODEBLOCKS_MAKE_ARGUMENTS:STRING=-j6
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
+
+//No help, variable specified on the command line.
+CMAKE_CUDA_COMPILER:PATH=/usr/local/cuda/bin/nvcc
 
 //CXX compiler
 CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
@@ -449,9 +449,6 @@ Ceres_DIR:PATH=/usr/local/lib/cmake/Ceres
 //The directory containing a CMake configuration file for Eigen3.
 Eigen3_DIR:PATH=/usr/lib/cmake/eigen3
 
-//The directory containing a CMake configuration file for G2O.
-G2O_DIR:PATH=G2O_DIR-NOTFOUND
-
 //Path to a file.
 GLOG_INCLUDE_DIR:PATH=/usr/include
 
@@ -474,10 +471,13 @@ METIS_LIBRARY_RELEASE:FILEPATH=METIS_LIBRARY_RELEASE-NOTFOUND
 MKL_DIR:PATH=MKL_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for OpenCV.
-OpenCV_DIR:PATH=/usr/local/share/OpenCV
+OpenCV_DIR:PATH=/usr/local/lib/aarch64-linux-gnu/cmake/opencv4
 
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
+
+//Path to a program.
+ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 
 //Path to a program.
 ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
@@ -555,8 +555,6 @@ realsense2_DIR:PATH=/usr/local/lib/cmake/realsense2
 
 //Have function sgemm_
 BLAS_WORKS:INTERNAL=
-//ADVANCED property for variable: BLAS_flexiblas_LIBRARY
-BLAS_flexiblas_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BLAS_goto2_LIBRARY
 BLAS_goto2_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BLAS_mkl_LIBRARY
@@ -584,9 +582,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/hk005pyc/CLionProjects/CPP/CPPCU_TEST_ONE/cma
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=23
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=18
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=0
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=5
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
@@ -661,6 +659,8 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Have symbol pthread_create
+CMAKE_HAVE_LIBC_CREATE:INTERNAL=
 //Test CMAKE_HAVE_LIBC_PTHREAD
 CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=
 //Have library pthreads
@@ -703,7 +703,7 @@ CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=/usr/local/share/cmake-3.23
+CMAKE_ROOT:INTERNAL=/usr/local/share/cmake-3.18
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
@@ -849,6 +849,8 @@ CUDNN_ROOT-ADVANCED:INTERNAL=1
 CXSparse_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CXSparse_LIBRARY
 CXSparse_LIBRARY-ADVANCED:INTERNAL=1
+//Details about finding BLAS
+FIND_PACKAGE_MESSAGE_DETAILS_BLAS:INTERNAL=[/usr/lib/aarch64-linux-gnu/libopenblas.so][v()]
 //Details about finding CUDA
 FIND_PACKAGE_MESSAGE_DETAILS_CUDA:INTERNAL=[/usr/local/cuda][/usr/local/cuda/bin/nvcc][/usr/local/cuda/include][/usr/local/cuda/lib64/libcudart.so][v10.2()]
 //Details about finding CUDNN
@@ -856,9 +858,9 @@ FIND_PACKAGE_MESSAGE_DETAILS_CUDNN:INTERNAL=[/usr/lib/aarch64-linux-gnu/libcudnn
 //Details about finding CXSparse
 FIND_PACKAGE_MESSAGE_DETAILS_CXSparse:INTERNAL=[/usr/include/suitesparse][/usr/lib/aarch64-linux-gnu/libcxsparse.so][v3.1.9(3.1.9)]
 //Details about finding OpenCV
-FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr/local][v3.4.11()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr/local][v4.5.5()]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v3.6.9()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.17()]
 //Details about finding SuiteSparse
 FIND_PACKAGE_MESSAGE_DETAILS_SuiteSparse:INTERNAL=[/usr/include/suitesparse][/usr/lib/aarch64-linux-gnu/libamd.so][/usr/include/suitesparse][/usr/lib/aarch64-linux-gnu/libcamd.so][/usr/include/suitesparse][/usr/lib/aarch64-linux-gnu/libccolamd.so][/usr/include/suitesparse][/usr/lib/aarch64-linux-gnu/libcholmod.so][/usr/include/suitesparse][/usr/lib/aarch64-linux-gnu/libcolamd.so][/usr/include/suitesparse][/usr/lib/aarch64-linux-gnu/libspqr.so][/usr/include/suitesparse][/usr/lib/aarch64-linux-gnu/libsuitesparseconfig.so][cfound components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config ][v5.1.2(5.1.2)]
 //Details about finding Threads
@@ -881,6 +883,8 @@ METIS_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 METIS_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ProcessorCount_cmd_getconf
+ProcessorCount_cmd_getconf-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_nproc
 ProcessorCount_cmd_nproc-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl

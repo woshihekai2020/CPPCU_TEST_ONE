@@ -51,19 +51,40 @@ set(Torch_DIR ~/.virtualenvs/Vyolo5/lib/python3.6/site-packages/torch)
 find_package(Torch REQUIRED)
 
 
-
 #包含头文件DLIB, 19.22 USE CUDA
 #INCLUDE_DIRECTORIES(~/dep/3_Face/dlib) #dlib根目录地址
 #LINK_DIRECTORIES(~/dep/3_Face/dlib/build/dlib/) #dlib编译后bulid下dlib地址
 
 
+find_package( OpenCV REQUIRED)
+include_directories( ${OpenCV_INCLUDE_DIRS})
+find_package( Eigen3 REQUIRED )
+add_definitions( ${EIGEN3_DEFINITIONS} )
+include_directories( ${EIGEN3_INCLLUDE_DIRS} )
+find_package( Ceres REQUIRED )
+include_directories( ${CERES_INCLUDE_DIRS} )
+#list( APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules )
+set( G2O_ROOT /usr/local/include/g2o )
+include_directories( ${G2O_INCLUDE_DIRS} )
+
+
+
 #生产类似于.exe的可执行文件
-ADD_EXECUTABLE(CPPCU_TEST_ONE 7_libtorchTest.cpp )
+ADD_EXECUTABLE(CPPCU_TEST_ONE 9_thread.cpp)
+
 #链接库
 #TARGET_LINK_LIBRARIES(CPPCU_TEST_ONE dlib ${OpenCV_LIBS} ${realsense2_LIBRARY} )
-TARGET_LINK_LIBRARIES(CPPCU_TEST_ONE ${OpenCV_LIBS} ${realsense2_LIBRARY} )
-target_link_libraries(CPPCU_TEST_ONE "${TORCH_LIBRARIES}")
+TARGET_LINK_LIBRARIES(CPPCU_TEST_ONE  {OpenCV_LIBS} ${realsense2_LIBRARY} )
+target_link_libraries(CPPCU_TEST_ONE ${TORCH_LIBRARIES})
 #TARGET_LINK_LIBRARIES(dlib_detector libjpeg.so)
+target_link_libraries(CPPCU_TEST_ONE
+        ${OpenCV_LIBS}
+        ${EIGEN3_LIBS}
+        ${CERES_LIBRARIES}
+        ${G2O_CORE_LIBRARY} ${G2O_STUFF_LIBRARY}
+        g2o_types_slam3d g2o_core g2o_stuff g2o_types_sba g2o_solver_csparse
+        g2o_csparse_extension cholmod g2o_solver_cholmod
+        )
 
 
 set_property(TARGET CPPCU_TEST_ONE PROPERTY CXX_STANDARD 14)
